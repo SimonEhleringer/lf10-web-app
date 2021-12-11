@@ -1,0 +1,16 @@
+.app {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../assets/weather.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

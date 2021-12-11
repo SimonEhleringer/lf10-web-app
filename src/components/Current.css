@@ -1,0 +1,23 @@
+.current {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current__temp {
+  margin: 1rem;
+}
+
+.current__min-max {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.25rem;
+}
+
+.current__description {
+  margin: 1rem;
+}

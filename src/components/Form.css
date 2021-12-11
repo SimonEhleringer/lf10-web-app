@@ -1,0 +1,17 @@
+.form {
+  width: 100%;
+  max-width: 1000px;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .form > * {
+    margin: 0.5rem;
+  }
+}

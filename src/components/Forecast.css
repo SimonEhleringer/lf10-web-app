@@ -1,0 +1,8 @@
+.forecast {
+  width: 100%;
+  max-width: 300px;
+}
+
+.forecast__forecast-item {
+  margin: 0.5rem;
+}

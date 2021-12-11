@@ -1,0 +1,9 @@
+.header-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.header-link:active {
+  color: rgba(255, 255, 255, 0.8);
+}
